@@ -3,6 +3,7 @@ const request = require('request');
 var express = require('express');
 
 var app = express();
+const port = process.env.PORT || 3000
 
 app.use(express.static(__dirname + '/public'));
 
@@ -26,11 +27,10 @@ app.get('/contact', function (req, res) {
     res.sendFile(getHtml('contacts'));
 });
 
-
-app.listen(3000, function () {
-    console.log('Example app listening on port 3000!');
-});
-
 function getHtml(htmlName) {
     return path.join(__dirname, `./${htmlName}.html`);
 }
+
+app.listen(port, function () {
+    console.log('Example app listening on port' +port + '!');
+});
