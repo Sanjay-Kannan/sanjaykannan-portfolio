@@ -135,3 +135,31 @@ body {
     text-align: left;
   }
 }
+
+@media screen and (min-width: 1000px) {
+  .skill-header {
+    padding: 20px;
+    margin-bottom: 50px;
+    font-family: "Courier New", Courier, monospace;
+    border-bottom: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .my-pic {
+    width: 50%;
+    height: 50%;
+    float: right;
+    margin-right: -100px;
+    margin-top: -280px;
+  }
+  .academics-header {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+  }
+}
