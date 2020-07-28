@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Sanjay Kumar K",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "express": "^4.17.1",
+    "node": "^14.5.0",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanjayKannan13/sanjaykannan-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SanjayKannan13/sanjaykannan-portfolio.git/issues"
+  },
+  "homepage": "https://github.com/SanjayKannan13/sanjaykannan-portfolio.git#readme",
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}

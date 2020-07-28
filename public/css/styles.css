@@ -1,0 +1,137 @@
+body {
+  background-color: #a9a9a9;
+  background-size: cover;
+}
+.about-header {
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+  color: black;
+  border-bottom: 2px solid black;
+  margin-bottom: 60px;
+  font-family: "Courier New", Courier, monospace;
+}
+.about {
+  width: 50%;
+  display: flex;
+  margin-left: 50px;
+  height: auto;
+}
+.my-pic {
+  width: 50%;
+  height: 50%;
+  float: right;
+  margin-right: -100px;
+  margin-top: -340px;
+}
+.academics-header {
+  margin-top: 205px;
+  margin-bottom: 30px;
+  font-family: "Courier New", Courier, monospace;
+  border-bottom: 2px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.academics-table {
+  width: 75%;
+  margin-left: 170px;
+  padding: 20px;
+}
+.contact-table {
+  margin-top: 50px;
+  background-color: #dcdcdc;
+  width: 75%;
+  margin-left: 170px;
+  padding: 20px;
+}
+.skill-header {
+  padding: 20px;
+  margin-bottom: 50px;
+  font-family: "Courier New", Courier, monospace;
+  border-bottom: 2px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 70px;
+}
+.skill-carousel {
+  width: 500px;
+  height: 100px;
+  padding: 50px;
+  margin-left: 500px;
+}
+.contact-header {
+  padding: 20px;
+  margin-bottom: 50px;
+  font-family: "Courier New", Courier, monospace;
+  border-bottom: 2px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 70px;
+}
+@media screen and (max-width: 500px) {
+  .skill-header {
+    padding: 20px;
+    margin-bottom: 50px;
+    font-family: "Courier New", Courier, monospace;
+    border-bottom: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .my-pic {
+    width: 50%;
+    height: 50%;
+    float: right;
+    margin-right: -100px;
+    margin-top: -340px;
+  }
+  .academics-header {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+  }
+}
+
+.projects-block {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #dcdcdc;
+}
+.app-pic {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#app-name {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: block;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .skill-header {
+    float: none;
+    display: fle;
+    text-align: left;
+    margin-left: 10px;
+  }
+  .heading {
+    float: none;
+    display: flex;
+    text-align: left;
+  }
+}
