@@ -11,19 +11,25 @@ body {
   margin-bottom: 60px;
   font-family: "Courier New", Courier, monospace;
 }
+.carousel-size {
+  width: 70%;
+  height: 40%;
+}
 .about {
-  width: 50%;
   display: flex;
-  margin-left: 50px;
   height: auto;
+  background-color: #696969;
+  color: white;
+  padding: 5px;
 }
 .my-pic {
-  width: 50%;
-  height: 50%;
-  float: right;
-  margin-right: -100px;
-  margin-top: -340px;
-}
+  width: 75%;
+  height: 75%;
+   float: right;
+   margin-top: 50px; 
+  /* margin-right: -100px;
+  margin-top: -340px;*/
+} 
 .academics-header {
   margin-top: 205px;
   margin-bottom: 30px;
@@ -85,13 +91,13 @@ body {
     margin-right: auto;
     text-align: center;
   }
-  .my-pic {
+  /* .my-pic {
     width: 50%;
     height: 50%;
     float: right;
     margin-right: -100px;
     margin-top: -340px;
-  }
+  } */
   .academics-header {
     float: none;
     display: block;
@@ -105,7 +111,11 @@ body {
 .projects-block {
   font-size: 25px;
   font-weight: bold;
-  background-color: #dcdcdc;
+  background-color: #696969;
+  color: white;
+}
+.projects-block li {
+  margin-bottom: 10px;
 }
 .app-pic {
   width: 100px;
@@ -147,13 +157,13 @@ body {
     margin-right: auto;
     text-align: center;
   }
-  .my-pic {
+  /* .my-pic {
     width: 50%;
     height: 50%;
     float: right;
     margin-right: -100px;
     margin-top: -280px;
-  }
+  } */
   .academics-header {
     float: none;
     display: block;
