@@ -12,8 +12,8 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 .carousel-size {
-  width: 70%;
-  height: 40%;
+  width: 50%;
+
 }
 .about {
   display: flex;
